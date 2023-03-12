@@ -6,7 +6,7 @@ library(TwoSampleMR)
 # BMI: ieu-a-835
 # DBP: ieu-b-39
 # SBP: ieu-b-38
-# FG: ebi-a-GCST005186
+# FG: ieu-b-114
 
 
 gwas_id = c(
@@ -17,7 +17,7 @@ gwas_id = c(
             'ieu-a-835',
             'ieu-b-38',
             'ieu-b-39',
-            'ebi-a-GCST005186')
+            'ieu-b-114')
 
 load('/home/panwei/lin00374/cML/graph/vcffiles/ldsc_res/rho_thres_0.1.RData')
 rho_8rf = rho_thres_0.1[c("TG","LDL","HDL","BMI","Height","FG","SBP","DBP"),
